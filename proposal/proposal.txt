@@ -1,0 +1,13 @@
+Project Proposal
+
+    In our project, the portal widget is used for people to search information of courses. The information includes the course’s section, time, location and instructor. In our widget’s view, firstly, there is a map that shows the actual location of the course. Secondly, there are two selectors calls Subject and Catalog, respectively. Obviously, the Subject selector is used for people to select the course’s subject and the Catalog selector is used to select the course’s catalog. Thirdly, there is a table behind the selectors and the table includes the Section column, the Time column, the Location column and the Instructor column.
+
+    Our portal widget works as the following:
+        1. User will see a map, a Subject selector, a Catalog selector and an empty table on the web page when they firstly load our portal web page;
+        2. When the web page loading is done, user can select a subject from the Subject selector, and then choose the catalog of the subject from the Catalog selector;
+        3. After the catalog has been selected, the table will show the information of the course, especially on the Location column, there is a button on each row followed by a room number and when a button is clicked that the map will show the actual location of the course;
+        4. User can drag the map by using mice.
+
+    Lastly, the things that challenge us are:
+        1. how to build the draggable map.
+        2. People in our group have no experience of the Javascript and Jquery before.

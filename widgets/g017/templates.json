@@ -1,0 +1,38 @@
+
+{
+	"baseHtml": [
+        "<link href='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.css' rel='stylesheet' />",
+        "<script src='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.js'></script>",
+		"<div id='g017_chooser'>",
+            "<div id='g017_mapbox' style='float:top; position:relative; top:0; bottom:0; width:100%; height:250px'>",
+				"<iframe id='g017_map' width='100%' height='100%' frameBorder='0' src='https://a.tiles.mapbox.com/v3/kkzylom.gd9jpa14.html?secure=1#15/43.470082286394074/-80.54240226745605'></iframe>",
+			"</div>",
+            "<div id='g017_data' style='margin-left:0px'>",
+                 "<div id='g017_select'>",
+                    "<label>Subject: <select id='g017_subject'></select></label>",
+                    "<label>Catalog: <select id='g017_catalog'></select></label>",
+                 "</div>",
+                 "<div id='g017_table'>",
+                    "<table border='2'>",
+                        "<tr>",
+                            "<th width='100px'>Section</th>",
+                            "<th width='100px'>Time</th>",
+                            "<th width='100px'>Location</th>",
+                            "<th width='100px'>Instructor</th>",
+                        "</tr>",
+                    "</table>",
+                 "</div>",
+            "</div>",
+		"</div>",
+		"<div id='g017_cDescr'></div>"
+        
+	],
+
+	"courseD": [
+	],
+
+	"course_error": "<p>Course not found.</p>",
+    "subject_error": "<p>Subject not found.</p>",
+    "catalog_error": "<p>Catalog number not found.</p>"
+
+}
